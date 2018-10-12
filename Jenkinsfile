@@ -6,5 +6,10 @@ pipeline {
         build 'maven-pramesh'
       }
     }
+    stage('deploy stage') {
+      steps {
+        build 'herodeploy'
+      }
+    }
   }
 }
