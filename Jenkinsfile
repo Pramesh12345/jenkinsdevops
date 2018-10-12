@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build stage') {
       steps {
-        echo 'hello sir i am running a pipeline'
+        build 'maven-pramesh'
       }
     }
   }
